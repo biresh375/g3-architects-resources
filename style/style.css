@@ -106,6 +106,7 @@ header{
         flex-direction: column;
     }
     .nav_list{
+        flex-direction: column;
         gap: 20px;
     }
     .header_img{
@@ -113,3 +114,12 @@ header{
     }
  }
  
+ @media screen and (min-width:577px) and (max-width:992px){
+    .navbar{
+        flex-direction: column;
+    }
+    .nav_list{
+        
+        gap: 20px;
+    }
+ }
